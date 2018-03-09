@@ -5,7 +5,7 @@ html, body {
 }
 
 header {
-    background-image: url(img/image.jpg);
+    background-image: url(img/image-fond.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -14,32 +14,73 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: white;
     font-family: 'avenir';
+
 }
 
+
+.arrow {
+    font-size: 20px;
+    color: white;
+}
+
+.arrow:hover {
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
 
 
 header h1 {
-    margin: 0;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    text-align: left;
     color: white;
-    border-style: double;
-    border-width: 4px;
-    border-color: rgb(255, 255, 255);
     padding: 7px 20px ;
     cursor: pointer;
     transition: all 0.2s ease-in-out; 
+    transform: translate(260px, 70px);
+}
+
+header h2 {
+    margin: 0px;
+    text-align: left;
+    color: white;
+    padding: 7px 20px ;
+    font-family: 'avenir';
+    transform: translate(270px, 60px);
+    font-size: 100%;
+    cursor: pointer;
 
 }
 
-header h1:hover {
-    background-color: rgba(167, 104, 52, 0.5); 
-    color :white;
+
+header h3 {
+    margin: 0px;
+    text-align: left;
+    color: white;
+    padding: 7px 20px ;
+    font-family: 'avenir';
+    transform: translate(270px, 50px);
+    font-size: 100%;
+    cursor: pointer;
+
 }
+
+header p {
+    margin: 0px;
+    text-align: left;
+    color: white;
+    padding: 7px 20px ;
+    font-family: 'avenir';
+    transform: translate(270px, 45px);
+    font-size: 100%;
+    cursor: pointer;
+
+}
+
 
 section{
     display: flex;
@@ -54,16 +95,17 @@ section{
 article{
     display: flex;
     flex-direction: row;
-    width: 10%;
-    margin: 50px;
+    width: 0%;
+    margin: 0px;
     padding: 80px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; 
     justify-content: center;
-    background-image: url("img/chat.jpg");
+    background-color: rgb(156, 156, 156);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;   
-    cursor: pointer;
-    transition: all 0.2s ease-in-out; 
+    font-size: 70%;
 }
     
 article:hover {
