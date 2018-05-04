@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html, body {
    height: 100%;
    margin: 0;
@@ -33,28 +35,16 @@ header {
     cursor: pointer;
 }
 
-div.bordure {
-        border-bottom:2px solid black;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 10%;
-        margin-left: 10%;
-        margin-right: 10%;
-}
-
-
 header h1 {
     margin: 10px;
     text-align: left;
     color: white;
-    padding: 0px 10px ;
+    padding: 0px 10px;
     cursor: pointer;
     transition: all 0.2s ease-in-out; 
     transform: translate(260px, -70px);
     font-size: 130%;
 }
-
-
 
 section{
     display: flex;
@@ -63,24 +53,21 @@ section{
     align-items: center;
     justify-content: space-around;
     min-height: 100%;
-    position: absolute;
 }
 
 article{
     display: flex;
     flex-direction: column;
-    width: 0%;
+    font-family: 'Roboto', sans-serif;
+    width: 30%;
     margin: 0px;
-    padding: 70px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size:center;
-    font-size: 100%;
-    margin-top: -450px;
-    }
+}
     
 article:hover {
     filter: grayscale(100%);
@@ -89,49 +76,31 @@ article:hover {
 }
 
 article h1 {
-color: rgb(163, 12, 12);
-padding: 7px ;
-font: bold;
-font-family: 'roboto';
-}
-
-section p {
-color: rgb(64, 64, 65);
-align-content: left;
-display: flex;
-position: absolute;
+    color: rgb(163, 12, 12);
+    padding: 7px ;
+    font: bold;
 }
 
 article h2 {
-color: rgb(0, 0, 0);
-padding: 6px ;
-font: bold;
-font-family: 'roboto';
-position: absolute;
-flex-direction: column;
+    color: rgb(0, 0, 0);
+    padding: 6px ;
+    font: bold;
 }
 
 article h3 {
-color: rgb(0, 0, 0);
-padding: 6px ;
-font: bold;
-font-family: 'roboto';
-position: absolute;
-margin-top: 330px;
-margin-left: -33%;
+    color: rgb(0, 0, 0);
+    padding: 6px;
+    font: bold;
 }
 
-#article-1 {
-    width: 280px;
-    height: 5px;
+section p {
+    color: rgb(64, 64, 65);
 }
 
-#article-2 {
-    width: 280px;
-    height: 5px;
+/**RESPONSIVE**/
+
+@media screen and (max-width: 600px) {
+
+
 }
 
-#article-3 {
-    width: 280px;
-    height: 5px;
-}
