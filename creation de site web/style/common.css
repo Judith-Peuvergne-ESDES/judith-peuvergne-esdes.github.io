@@ -1,0 +1,25 @@
+button {
+	padding:6px 0 6px 0;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background:#500303;
+	color:#ffffff;
+	border-radius:2px;
+	width:100px;
+    border:1px solid #ccc;
+    font-size: 70%;
+    font: bold;
+    cursor: pointer;
+}
+
+footer {
+	background-color: #500303;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+}
