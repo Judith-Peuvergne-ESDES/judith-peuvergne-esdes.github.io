@@ -41,13 +41,13 @@ section2 {
     justify-content: center;
 }
 
-button {
-	padding:6px 0 6px 0;
+a {
+	padding:6px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	background:#500303;
 	color:#ffffff;
 	border-radius:2px;
-	width:100px;
+	width:150px;
     border:1px solid #ccc;
     font-size: 70%;
     font: bold;
