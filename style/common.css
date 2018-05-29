@@ -1,12 +1,11 @@
-button {
-	padding:6px 0 6px 0;
+a {
+	padding:5px ;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	background:#500303;
 	color:#ffffff;
-	border-radius:2px;
+	border-radius:4px;
 	width:100px;
-    border:1px solid #ccc;
-    font-size: 70%;
+    font-size: 14px;
     font: bold;
     cursor: pointer;
 }
@@ -23,3 +22,4 @@ footer {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 20px;
 }
+

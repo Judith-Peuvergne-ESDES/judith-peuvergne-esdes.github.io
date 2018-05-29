@@ -21,6 +21,7 @@ header {
     align-items: center;
     color: white;
     font-family: 'avenir';
+    font-size: 14px;
 }
 
 
@@ -128,18 +129,6 @@ section p {
 
     article {
         background-color: fuchsia;
-    }
-
-}
-
-@keyframes enter {
-   from {opacity:0;
-    transform: translateY(100px);
-}
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
     }
 
 }

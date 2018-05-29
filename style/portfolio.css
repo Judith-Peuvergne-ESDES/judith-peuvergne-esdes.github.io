@@ -10,6 +10,7 @@ h1 {
     font-weight: bold; 
     width:430px;  
     margin:auto; 
+    animation: enter 2s ease-in-out 1 alternate;
 }
 
 .deuxieme {
@@ -256,4 +257,27 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     margin: 50px;
+}
+
+@keyframes enter {
+    from {
+        transform: translateX(-300px);        
+}
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
+footer {
+	background-color: #500303;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
 }
