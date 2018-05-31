@@ -3,9 +3,7 @@ a {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	background:#500303;
 	color:#ffffff;
-	border-radius:2px;
 	width:150px;
-    border:1px solid #ccc;
     font-size: 70%;
     font: bold;
     cursor: pointer;
