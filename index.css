@@ -157,3 +157,16 @@ section p {
 	width: 100%;
     height: 100%;
 }
+
+.judith {
+    width:50%;
+    height:50%;
+}
+
+#judith {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
