@@ -124,19 +124,22 @@ section p {
 /**RESPONSIVE MOBILE**/
 @media screen and (max-width: 600px){
 
-    section
+    section 
     {
-        font-size: 14px;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        width: 80%;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'roboto';
+        font-size: 100%;
+
     }
 
-    article {
-        background-color: rgb(0, 135, 197);
+    #main-page {
+        flex-direction: column;
+        width: 100%;
     }
 
+    header h1 {
+        font-size: 0%;
+    }
+     
 }
 
 /*TABLET*/
@@ -146,13 +149,14 @@ section p {
     {
         font-family: 'roboto';
         font-size: 100%;
-        flex-direction: row;
 
     }
 
-    article {
-        background-color: fuchsia;
+    #main-page {
+        flex-direction: column;
+        width: 80%;
     }
+
 
 }
 
