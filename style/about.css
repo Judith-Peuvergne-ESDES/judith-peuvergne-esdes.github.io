@@ -9,9 +9,7 @@ h3 {
     animation: enter 2s ease-in-out 1 alternate;
 }
 
-body{
-    background-color: #8B2E31;
-}
+
 
 h1 {
     font-size: 18px;
@@ -67,102 +65,6 @@ body{
     clear:both;
 }
 
-#main-container{
-    width:400px;
-    margin:30px auto;
-}
-
-#form-container{
-    background-color:#f5f5f5;
-    padding:15px;
-
-    /* rounded corners */
-    -moz-border-radius:12px;
-    -khtml-border-radius: 12px;
-    -webkit-border-radius: 12px;
-    border-radius:12px;
-}
-
-td{
-    /* prevent multiline text */
-    white-space:nowrap;
-}
-
-a, a:visited {
-    color:#00BBFF;
-    text-decoration:none;
-    outline:none;
-}
-
-a:hover{
-    text-decoration:underline;
-}
-
-h4{
-    color:#500303;
-    font-size:22px;
-    font-weight:normal;
-    margin-bottom:5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-h2{
-    font-weight:normal;
-    font-size:10px;
-
-    text-transform:uppercase;
-
-    color:#aaaaaa;
-    margin-bottom:15px;
-
-    border-bottom:1px solid #eeeeee;
-    margin-bottom:15px;
-    padding-bottom:10px;
-}
-
-label{
-    text-transform:uppercase;
-    font-size:10px;
-    font-family:Tahoma,Arial,Sans-serif;
-}
-
-textarea{
-    color:#404040;
-    font-family:Arial,Helvetica,sans-serif;
-    font-size:12px;
-}
-
-td > button{
-    /* A special CSS selector that targets non-IE6 browsers */
-    text-indent:8px;
-}
-
-.error{
-    /* this class is used if JS is disabled */
-    background-color:#AB0000;
-    color:white;
-    font-size:10px;
-    font-weight:bold;
-    margin-top:10px;
-    padding:10px;
-    text-transform:uppercase;
-    width:300px;
-}
-
-#loading{
-    /* the loading gif is hidden on page load */
-    position:relative;
-    bottom:9px;
-    visibility:hidden;
-}
-
-.tutorial-info{
-    color:white;
-    text-align:center;
-    padding:10px;
-    margin-top:10px;
-
-}
 
 @keyframes enter {
     from {
@@ -183,4 +85,38 @@ footer {
 	color: white;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
