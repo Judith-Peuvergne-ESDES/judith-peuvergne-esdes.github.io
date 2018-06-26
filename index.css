@@ -91,6 +91,7 @@ article{
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center;
+    align-items: center;
 }
     
 article:hover {
@@ -128,7 +129,6 @@ section p {
     {
         font-family: 'roboto';
         font-size: 100%;
-
     }
 
     #main-page {
@@ -142,7 +142,7 @@ section p {
      
 }
 
-/*TABLET*/
+/*TABLET AND DESKTOP*/
 @media screen and (min-width: 600px) and (max-width: 900px) {
 
     section 
