@@ -45,6 +45,20 @@ header h1 {
     transition: all 0.2s ease-in-out; 
     transform: translate(260px, -70px);
     font-size: 130%;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein { /* Tous les autres navigateurs */
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(150px);
+    }
+
+    
 }
 
 section{
@@ -170,3 +184,5 @@ section p {
     justify-content: space-around;
     align-items: center;
 }
+
+
