@@ -16,10 +16,11 @@ h1 {
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
+    margin: 10px;
     color: #500303; 
     font-weight: bold; 
-    margin:auto; 
     margin: 50px;
+   
 }
 
 b {
