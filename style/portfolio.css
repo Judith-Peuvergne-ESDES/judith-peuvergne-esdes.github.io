@@ -13,6 +13,20 @@ h1 {
     animation: enter 2s ease-in-out 1 alternate;
 }
 
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #500303; 
+    font-weight: bold; 
+    margin:auto; 
+    margin: 50px;
+}
+
+b {
+    font-size: 16px;
+    color: #b1afaf;
+}
+
 .deuxieme {
     letter-spacing: 0.4em; 
 }
@@ -255,7 +269,7 @@ a {
 p {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     margin: 50px;
 }
 
