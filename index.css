@@ -102,13 +102,11 @@ article:hover {
 
 article h1 {
     color: rgb(163, 12, 12);
-    padding: 7px ;
     font: bold;
 }
 
 article h2 {
     color: rgb(0, 0, 0);
-    padding: 6px ;
     font: bold;
 }
 
@@ -120,6 +118,7 @@ article h3 {
 
 section p {
     color: rgb(64, 64, 65);
+    font-size: 14px;
 }
 
 /**RESPONSIVE MOBILE**/
@@ -190,3 +189,7 @@ section p {
 }
 
 
+b {
+    color: black;
+    font-size: 15px;
+}
